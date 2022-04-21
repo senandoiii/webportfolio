@@ -62,3 +62,14 @@ body {
 	/*background-image: url(https://images.pexels.com/photos/2832382/pexels-photo-2832382.jpeg?cs=srgb&dl=pexels-anni-roenkae-2832382.jpg&fm=jpg);*/
 	size: cover;
 }
+
+.card:hover {
+	transform: scale(1.3);
+	z-index: 2;
+	
+}
+
+#imgbox:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
