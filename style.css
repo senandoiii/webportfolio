@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Orelega One', cursive
+}	
+
+body {
+		background-image: url(https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-2603464.jpg&fm=jpg);
+		background-position: center center;
+		background-size: contain;
+		size: cover;
+}
+
+.nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	font-size: 16px;
+	margin: 3px;
+}
+
+.nav-link:hover{
+	font-weight: 700;
+	border-bottom: 1px solid #fff;
+
+}
+
+
+.jumbotron{
+	background-image: url(https://images.pexels.com/photos/52910/pexels-photo-52910.jpeg?cs=srgb&dl=pexels-nita-52910.jpg&fm=jpg);
+	background-position: center;
+	background-size: contain;
+	size: cover;
+	color: #fff!important;
+}	
+
+.jumbotron img{
+	height: 28rem;
+	border-radius: 30%;
+	width: 18rem;
+}
+
+#aboutme {
+	color: #fff !important;
+	/*background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg);*/
+	
+}
+
+#myprojects {
+	/*background-image: url(https://images.pexels.com/photos/2832382/pexels-photo-2832382.jpeg?cs=srgb&dl=pexels-anni-roenkae-2832382.jpg&fm=jpg);*/
+	size: cover;
+}

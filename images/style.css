@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Orelega One', cursive
+}	
+
+body {
+		background-image: url(https://images.pexels.com/photos/2387533/pexels-photo-2387533.jpeg?cs=srgb&dl=pexels-adrien-olichon-2387533.jpg&fm=jpg);
+		size: cover;
+}
+
+.nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+	font-size: 16px;
+	margin: 3px;
+}
+
+.nav-link:hover{
+	font-weight: 700;
+	border-bottom: 1px solid #fff;
+
+}
+
+.jumbotron{
+	background-image: url(https://images.pexels.com/photos/3835/abstract.jpg?cs=srgb&dl=pexels-skitterphoto-3835.jpg&fm=jpg);
+	size: cover;
+	color: #fff!important;
+}	
+
+.jumbotron img{
+	height: 200px;
+	border-radius: 30%;
+	width: 18rem;
+}
+
+#aboutme {
+	color: #fff !important;
+	background-image: url(https://images.pexels.com/photos/925711/pexels-photo-925711.jpeg?cs=srgb&dl=pexels-jo%C3%A3o-jesus-925711.jpg&fm=jpg);
+	size: cover;
+}
+
+#myprojects {
+	background-image: url(https://images.pexels.com/photos/1154739/pexels-photo-1154739.jpeg?cs=srgb&dl=pexels-tim-mossholder-1154739.jpg&fm=jpg);
+	size: cover;
+}
