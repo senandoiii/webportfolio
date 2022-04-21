@@ -33,7 +33,7 @@ body {
 
 .nav-link:hover{
 	font-weight: 700;
-	border-bottom: 1px solid #fff;
+	border: 1px solid #fff;
 
 }
 
@@ -65,6 +65,7 @@ body {
 }	
 
 .jumbotron img{
+
 	height: 24rem;
 	border-radius: 30%;
 	width: 18rem;
@@ -77,7 +78,10 @@ body {
 
 #aboutme {
 	color: #fff !important;
-	/*background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg);*/	
+	margin: auto;
+	padding: 20px;
+	background-color: #000;
+	font-size: 20px;
 }
 
 #ab1:hover {
@@ -86,8 +90,11 @@ body {
 }
 
 #myprojects {
-	/*background-image: url(https://images.pexels.com/photos/2832382/pexels-photo-2832382.jpeg?cs=srgb&dl=pexels-anni-roenkae-2832382.jpg&fm=jpg);*/
 	size: cover;
+}
+
+#contacth1{
+	background-color: #000;
 }
 
 .card:hover {
@@ -132,4 +139,10 @@ body {
 #BTTN:hover {
   background: #000;
   color: white;
+}
+
+@media (max-width:320px) {
+	#jumboIMG {
+		display: none;
+	}
 }

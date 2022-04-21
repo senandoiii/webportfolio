@@ -37,26 +37,32 @@
 			  </div>
 			</nav>
 		</div>
+
+
 		<section id="home">  
 			<div class="jumbotron jumbotron-fluid d-flex mt-0">
 				<video autoplay="true" loop="true" muted="true">
 					<source src="video.mp4" type="video/mp4">
 				</video> 
 				  	<div class="container m-auto text-center" >
-				  		<img src="images/gradpic.jpg" class="img-fluid m-auto">
 					    <h1 class="display-4" id="jumbo">Hi, my name is Sen!</h1>
 					    <p class="lead" id="jumbo">I'm a Front End Developer. Welcome to my portfolio website.</p>
 					    <a class="btn btn-primary btn-lg" href="#myprojects" role="button" id="BTTN">My Projects</a>
 				 	 </div>
+				 	<div class="container m-auto text-center" id="jumboIMG">
+				 		<img src="images/gradpic.jpg" class="img-fluid m-auto">
+				 	</div> 
 			</div>
 		</section>
 
+
+
 		<section id="aboutme">
-			<div class="container p-5 ">
+			<div class="container p-5 border">
 				<div class="row">
 					<div class="col-12 col-lg-4 d-flex flex-column justify-content-center" id="ab1">
-						<h3 class="text-center">About</h3>
-						<p class="w-25% m-auto">I am a 24 years old, currently taking a Full Stack Web Developer Program at Zuitt. An aspiring web designer and full stack web developer.</p>	
+						<h3 class="text-center" id="ab1">About</h3>
+						<p class="w-25% m-auto" id="ab2">I am a 24 years old, currently taking a Full Stack Web Developer Program at Zuitt. An aspiring web designer and full stack web developer.</p>	
 					</div>
 					<div class="col-12 col-lg-8 d-flex flex-column justify-content-center m-auto ">
 						<h3 class="text-center mt-2">Skills and Tools</h3>
@@ -77,9 +83,11 @@
 			</div>
 		</section>
 
+
+
 		<section id="myprojects" class="mt-3">
-			<h1 class="text-center text-white py-5">My Projects</h1>
-			<div class="container p-5 text-center">
+			<h1 class="text-center text-white py-3">My Projects</h1>
+			<div class="container p-3 text-center">
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 m-auto p-3">
 						<div class="card m-auto" style="width: 16rem;">
@@ -115,12 +123,14 @@
 			</div>
 		</section>
 
+
+
 		<section id="contact" class="mt-5">
 			<form>
-				<h1 class="text-center text-white">Lets Connect</h1>
-				<div class="container p-5">
+				<h1 class="text-center text-white" id="contacth1">Let's Connect</h1>
+				<div class="container p-2">
 					<div class="row">
-						<div class="col-12 col-md-6 col-lg-5">
+						<div class="m-auto container m-3  col-12 col-md-8 col-lg-8 col-xl-4 text-center">
 							<div class="form-group text-white">
 							    <label for="name"></label>
 							    <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -155,28 +165,32 @@
 							    </div>
 							  </div>
 						</div>
-						<div class="col-12 col-md-6 col-lg-7">
-							<div class="d-flex justify-content-center m-4">
-								<a href="https://www.facebook.com/"><img  width="50" src="images/fb.png" class="img-fluid rounded-circle p-1"  id="imgbox"></a>
-								<a href="https://twitter.com/"><img  width="50" src="images/twitter.jpg" class="img-fluid rounded-circle p-1"  id="imgbox"></a>
-								<a href="https://www.instagram.com/"><img  width="50" src="images/ig.png" class="img-fluid rounded-circle p-1" id="imgbox"></a>
-								<a href="https://gitlab.com/"><img  width="50" src="images/gitlab.png" class="img-fluid p-1"  id="imgbox"></a>
-							</div>
-							<div class="d-flex flex-column justify-content-center align-items-center text-white m-4">
-								<p>
-									Phone no.: (+63) 9053690399
-								</p>
-								<p>	Email Address: senandoiii@gmail.com
-								</p>
-								<p>Location: Bulacan, Philippines
-								</p>
-							</div>	
-						</div>
 					</div>
 			</form>
 		</section>
 
-		<footer>
+		<section>
+			<div class="col-xs-12">
+				<div class="d-flex flex-column justify-content-center align-items-center text-white m-4">
+					<p>
+						Phone no.: (+63) 9053690399
+					</p>
+					<p>	Email Address: senandoiii@gmail.com
+					</p>
+					<p>Location: Bulacan, Philippines
+					</p>
+				</div>
+				<div class="d-flex justify-content-center m-4">
+					<a href="https://www.facebook.com/"><img  width="50" src="images/fb.png" class="img-fluid rounded-circle p-1"  id="imgbox"></a>
+					<a href="https://twitter.com/"><img  width="50" src="images/twitter.jpg" class="img-fluid rounded-circle p-1"  id="imgbox"></a>
+					<a href="https://www.instagram.com/"><img  width="50" src="images/ig.png" class="img-fluid rounded-circle p-1" id="imgbox"></a>
+					<a href="https://gitlab.com/"><img  width="50" src="images/gitlab.png" class="img-fluid p-1"  id="imgbox"></a>
+				</div>	
+			</div>
+		</section>
+
+
+		<footer id="foot">
 			<div class="nav-bar">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			  <a class="navbar-brand" href="#"></a>
