@@ -37,6 +37,11 @@ body {
 
 }
 
+/*.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+}
 .jumbotron video {
   position: absolute;
   z-index: 1;
@@ -49,12 +54,9 @@ body {
 .jumbotron .container {
   z-index: 2;
   position: relative;
-}
+}*/
 
 .jumbotron{
-	position: relative;
-  	overflow: hidden;
-  	background-color:black;
 	background-image: url(https://images.pexels.com/photos/52910/pexels-photo-52910.jpeg?cs=srgb&dl=pexels-nita-52910.jpg&fm=jpg);
 	background-position: center;
 	background-size: contain;
