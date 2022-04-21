@@ -70,6 +70,11 @@ body {
 	width: 18rem;
 }
 
+#jumbo:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
 #aboutme {
 	color: #fff !important;
 	/*background-image: url(https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg);*/	
