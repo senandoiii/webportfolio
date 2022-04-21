@@ -80,3 +80,29 @@ body {
 	transform: scale(1.3);
 	z-index: 2;
 }
+
+.card-body #BTTN{
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+#BTTN {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#BTTN:hover {
+  background: #000;
+  color: white;
+}
