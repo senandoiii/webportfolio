@@ -37,7 +37,7 @@ body {
 
 }
 
-/*.jumbotron {
+.jumbotron {
   position: relative;
   overflow: hidden;
   background-color:black;
@@ -54,7 +54,7 @@ body {
 .jumbotron .container {
   z-index: 2;
   position: relative;
-}*/
+}
 
 .jumbotron{
 	background-image: url(https://images.pexels.com/photos/52910/pexels-photo-52910.jpeg?cs=srgb&dl=pexels-nita-52910.jpg&fm=jpg);
